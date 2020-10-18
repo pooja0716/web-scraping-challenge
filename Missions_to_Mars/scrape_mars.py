@@ -36,7 +36,7 @@ def scrape():
     feature_pic = header.find('article')
     pic_background = feature_pic['style']
     pic_id = pic_background[53:61]
-    featured_image_url = f'https://www.jpl.nasa.gov/spaceimages/images/largesize/{pic_id}_hires.jpg'
+    featured_image_url = f'https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA24152_hires.jpg'
 
     # Mars Weather
     twitter_url = 'https://twitter.com/marswxreport?lang=en'
